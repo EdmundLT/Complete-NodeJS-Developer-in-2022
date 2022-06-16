@@ -1,4 +1,5 @@
 const http = require("http");
+require("dotnev").config();
 const { mongoConnect } = require("./services/mongo");
 const app = require("./app");
 const { loadPlanetsData } = require("./models/planets.model");
